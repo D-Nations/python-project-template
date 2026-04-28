@@ -60,9 +60,9 @@ repos:
         files: \.py$
         pass_filenames: false
 
-      # - id: unittest
-      #   name: unittest
-      #   entry: uv run python -m unittest discover -s tests -v
+      # - id: pytest
+      #   name: pytest
+      #   entry: uv run pytest
       #   language: system
-      #   files: \.py$
       #   pass_filenames: false
+
